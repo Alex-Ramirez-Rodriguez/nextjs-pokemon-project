@@ -5,6 +5,7 @@ const HomePage: NextPage = () => {
   return (
     <>
       <Button color="gradient">Click me</Button>
+      <h1>Hello world from NextUI</h1>
     </>
   );
 };
