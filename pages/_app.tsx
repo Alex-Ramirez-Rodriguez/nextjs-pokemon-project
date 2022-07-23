@@ -4,7 +4,7 @@ import { darkTheme } from '../themes';
 
 import '../styles/globals.css';
 
- function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <NextUIProvider theme={darkTheme}>
       <Component {...pageProps} />

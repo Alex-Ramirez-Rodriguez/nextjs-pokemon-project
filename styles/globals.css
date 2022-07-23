@@ -1,0 +1,19 @@
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.pokemon-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.favorites-title-container {
+    display: flex;
+}
+
