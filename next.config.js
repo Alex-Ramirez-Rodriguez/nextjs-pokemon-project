@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['raw.githubusercontent.com'],
+    domains: ['raw.githubusercontent.com', 'pokeapi.co'],
   },
   swcMinify: true,
   experimental: {
@@ -11,3 +11,5 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+// /api/v2/pokemon/1/
